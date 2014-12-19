@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  	<title>Weather Test</title>
+  	<script src="js/jquery-1.11.2.min.js"></script>
+    <script src="js/view.js"></script>
+    <script src="js/search.js"></script>
+    <script src="js/weather.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/weathertest.css">
+  	<link rel="stylesheet" type="text/css" href="css/weather-icons.min.css">
+  </head>
+  <body>
+    <div class="container">
+      <div id="unit-select">
+        <span id="celsius">Celsius</span> | <span id="fahrenheit">Fahrenheit</span>
+      </div>
+      <div id="forecast">
+        <li id="temperature">
+        <i id="icon" class="wi wi-day-fog"></i><span id="temp-number"> 30 <i class="wi wi-celsius"></i></span>
+        </li>
+        <li id="description">mostly sunny</li>
+      </div>
+      <form id="update-weather">
+        <input id="city-id" type="text" value="293397">
+        <input type="submit" value="Update weather">
+      </form>
+    </div>
+  </body>
+  </body>
+</html>
