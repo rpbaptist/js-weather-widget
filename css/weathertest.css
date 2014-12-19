@@ -1,0 +1,32 @@
+.container {
+	position: relative;
+	top: 100px;
+	padding: 15px;
+	margin: auto;
+	width: 300px;
+	height: 200px;
+	background-color: #76776C;
+	color: white;
+	text-align: center;
+}
+
+#temp-select {
+	display: inline-block;
+}
+
+li {
+	list-style: none;
+}
+
+#forecast {
+	padding: 15px;
+}
+
+#unit-select span {
+	cursor: pointer;
+	cursor: hand;
+}
+
+#temperature {
+	font-size: 2em;
+}
