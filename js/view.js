@@ -1,5 +1,4 @@
-
- var WeatherView = function(el) {
+var WeatherView = function(el) {
 	this.el = el;
 }
 
